@@ -1,0 +1,42 @@
+<style>
+
+#largeBackground {background: url(../{{coverImagePath}}/600.{{coverImageExtension}}) no-repeat center center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+}
+
+@media screen and (min-width: 800px) {
+    #largeBackground {background: url(../{{coverImagePath}}/1200.{{coverImageExtension}}) no-repeat center center;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+    }
+}
+@media screen and (min-width: 1800px) {
+    #largeBackground {background: url(../{{coverImagePath}}/2500.{{coverImageExtension}}) no-repeat center center;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+    }
+}
+</style>
+<script src="{{path}}js/jquery.waitforimages.js" type="text/javascript"></script>
+<script>
+    $(function(){
+        $(window).scroll(function() {
+            var scrollPos = $(window).scrollTop();
+            var parallaxFactor = 0.5;
+            if (scrollPos>2000) return;
+            $("#largeBackground").css('top', scrollPos*parallaxFactor + "px");
+        });
+        $("#largeBackground").hide();
+        $('#largeBackground').waitForImages(function() {
+            // All descendant images have loaded, now slide up.
+            $("#largeBackground").fadeIn();
+        });
+    });
+</script>

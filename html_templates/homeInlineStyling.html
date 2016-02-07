@@ -1,0 +1,45 @@
+<style>
+
+#homeCoverImg {background: url(../{{coverImagePath}}/600.{{coverImageExtension}}) no-repeat center center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+}
+
+@media screen and (min-width: 800px) {
+    #homeCoverImg {background: url(../{{coverImagePath}}/1200.{{coverImageExtension}}) no-repeat center center;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+    }
+}
+@media screen and (min-width: 1800px) {
+    #homeCoverImg {background: url(../{{coverImagePath}}/2500.{{coverImageExtension}}) no-repeat center center;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+    }
+}
+
+</style>
+<script src="{{path}}js/jquery.waitforimages.js" type="text/javascript"></script>
+<script>
+    $(function(){
+        $("#homeCoverImg").hide();
+        $('#homeCoverImg').waitForImages(function() {
+            // All descendant images have loaded, now slide up.
+            $("#homeCoverImg").fadeIn();
+        });
+        var mainImg = $('#mainImageContainer');
+        var mainImgOverlay = $('.mainImgOverlay');
+        mainImg.mouseover(function(){
+          mainImgOverlay.stop().fadeTo(100, 0.7);
+        });
+        mainImg.mouseout(function(){
+          mainImgOverlay.stop().fadeTo(300, 0.0);
+        });
+    });
+</script>

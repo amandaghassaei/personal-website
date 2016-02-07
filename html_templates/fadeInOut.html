@@ -1,0 +1,11 @@
+<script>
+$(function(){
+  var blackOverlays = $(".blackOverlay");
+  blackOverlays.mouseover(function(){
+      $(this).stop().fadeTo(100, 0.7);
+  });
+  blackOverlays.mouseout(function(){
+      $(this).stop().fadeTo(300, 0.0);
+  });
+});
+</script>
