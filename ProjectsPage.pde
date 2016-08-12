@@ -3,9 +3,6 @@ void makeProjectsPage(){
   String[] pageHTML = new String[genericHead.length];
   arrayCopy(genericHead, pageHTML);
   
-  String[] fadeInOut = loadStrings("html_templates/fadeInOut.html");
-  pageHTML = insertArray(pageHTML, "<!--extraHead-->", fadeInOut);
-  
   String[] pageBody = new String[genericBody.length];
   arrayCopy(genericBody, pageBody);
   pageHTML = insertArray(pageHTML, "{{body}}", pageBody);
@@ -29,7 +26,7 @@ void makeProjectsPage(){
     } else {
       item = replaceWord(item, "{{url}}", project.getString("URL"));
     }
-    item = replaceWord(item, "{{mainImg}}", project.getString("Images"));
+    item = replaceWord(item, "{{mainWideImg}}", project.getString("Images Wide"));
     item = replaceWord(item, "{{date}}", project.getString("Date"));
     item = replaceWord(item, "{{description}}", project.getString("Short Description"));
     
@@ -39,6 +36,7 @@ void makeProjectsPage(){
   pageHTML = insertArray(pageHTML, "{{projectAssets}}", projects);
   
   pageHTML = replaceWord(pageHTML, "{{license}}", "");
+  pageHTML = replaceWord(pageHTML, "{{coverImage}}", "");
   pageHTML = replaceWord(pageHTML, "{{path}}", "/");
   saveStrings("mysite/projects/index.html", pageHTML);
 }

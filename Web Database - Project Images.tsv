@@ -1,18 +1,18 @@
 Project Name	iframe	Height	Width	URL	Description
-3D printed record	<iframe src="http://player.vimeo.com/video/61210101?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
-3D printed record	<iframe src="http://player.vimeo.com/video/56017345?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
-3D printed record		600		images/3drecord/record1.jpg	
-3D printed record		750		images/3drecord/record4.jpg	
-3D printed record		600		images/3drecord/record2.jpg	
-3D printed record		506		images/3drecord/model1.jpg	
-3D printed record		506		images/3drecord/model2.jpg	
-3D printed record		701		images/3drecord/model3.jpg	
-gimbal	<iframe src="http://player.vimeo.com/video/103602690?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>	506			
-gimbal	<iframe src="https://player.vimeo.com/video/114686915?title=0&byline=0&portrait=0" width="900" height="507" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>	507			
-gimbal		600		images/compass/fullMechanism.jpg	
-gimbal		600		images/compass/innerMechanism.jpg	
-genetic images		450		images/genetic_images/teddySideBySide.gif	
-genetic images		1800		images/genetic_images/allframes.jpg	
+3D_printed_record	<iframe src="http://player.vimeo.com/video/61210101?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
+3D_printed_record	<iframe src="http://player.vimeo.com/video/56017345?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
+3D_printed_record		600		images/3drecord/record1.jpg	
+3D_printed_record		750		images/3drecord/record4.jpg	
+3D_printed_record		600		images/3drecord/record2.jpg	
+3D_printed_record		506		images/3drecord/model1.jpg	
+3D_printed_record		506		images/3drecord/model2.jpg	
+3D_printed_record		701		images/3drecord/model3.jpg	
+compass	<iframe src="http://player.vimeo.com/video/103602690?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>	506			
+compass	<iframe src="https://player.vimeo.com/video/114686915?title=0&byline=0&portrait=0" width="900" height="507" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>	507			
+compass		600		images/compass/fullMechanism.jpg	
+compass		600		images/compass/innerMechanism.jpg	
+genetic_images		450		images/genetic_images/teddySideBySide.gif	
+genetic_images		1800		images/genetic_images/allframes.jpg	
 walkers		491		images/algorithmic_walkers/leg4.jpg	
 walkers		600		images/algorithmic_walkers/link.jpg	
 walkers		441		images/algorithmic_walkers/leg3.jpg	
@@ -24,40 +24,41 @@ sugarcube		600		images/sugarcube/angle.jpg
 sugarcube		600		images/sugarcube/front.jpg	
 sugarcube		600		images/sugarcube/side.jpg	
 teaching		518		images/teaching/cca.jpg	
-laser cut record	<iframe src="http://player.vimeo.com/video/65533463?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
-laser cut record	<iframe src="http://player.vimeo.com/video/66017816?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
-laser cut record	<iframe src="http://player.vimeo.com/video/65533918?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
-laser cut record		600		images/laserrecord/woodRecord.jpg	
-laser cut record	<iframe src="http://player.vimeo.com/video/65533919?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
-laser cut record		600		images/laserrecord/acrylicGrooves.jpg	
-laser cut record		600		images/laserrecord/acrylicGrooves2.jpg	
-laser cut record	<iframe src="http://player.vimeo.com/video/65538882?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
-laser cut record		683		images/laserrecord/paperCloseUp.jpg	
+laser_cut_record	<iframe src="http://player.vimeo.com/video/65533463?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
+laser_cut_record	<iframe src="http://player.vimeo.com/video/66017816?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
+laser_cut_record	<iframe src="http://player.vimeo.com/video/65533918?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
+laser_cut_record		600		images/laserrecord/woodRecord.jpg	
+laser_cut_record	<iframe src="http://player.vimeo.com/video/65533919?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
+laser_cut_record		600		images/laserrecord/acrylicGrooves.jpg	
+laser_cut_record		600		images/laserrecord/acrylicGrooves2.jpg	
+laser_cut_record	<iframe src="http://player.vimeo.com/video/65538882?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
+laser_cut_record		683		images/laserrecord/paperCloseUp.jpg	
 glitchbox		533		images/glitchbox/side.jpg	
 glitchbox		545		images/glitchbox/front2.jpg	
-ambient synthesis	<iframe src="http://player.vimeo.com/video/38626867?title=0&amp;byline=0&amp;portrait=0" width="900" height="508" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
-ambient synthesis		506		images/ambient_synthesis/goldengardens.jpg	
-ambient synthesis		501		images/ambient_synthesis/emp.jpg	
-ambient synthesis		503		images/ambient_synthesis/mojave3.jpg	
-ambient synthesis		600		images/ambient_synthesis/norcal2.jpg	
-ambient synthesis		506		images/ambient_synthesis/cad.jpg	
-mechanical walking machine	<iframe src="http://player.vimeo.com/video/23898767?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
-mechanical walking machine		466		images/walker/twolegs.gif	An illustration of the translation of rotational motion into stepping motion.
-mechanical walking machine		506		images/walker/hingeclose.jpg	
-mechanical walking machine		506		images/walker/heatgun.jpg	
-mechanical walking machine		506		images/walker/still1.jpg	
-mechanical walking machine		637		images/walker/hinges.jpg	
-mechanical walking machine		527		images/walker/press.jpg	
-mechanical walking machine		506		images/walker/still4.jpg	
-mechanical walking machine		900		images/walker/full.jpg	
-mechanical walking machine		506		images/walker/still3.jpg	
-mechanical walking machine		506		images/walker/dimensions.jpg	Dimensions of one leg. 
-mechanical walking machine		936		images/walker/pair.png	The position of a pair of legs during 12 steps of one locomotive cycle.
+ambient_synthesis	<iframe src="http://player.vimeo.com/video/20694014?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
+ambient_synthesis	<iframe src="http://player.vimeo.com/video/38626867?title=0&amp;byline=0&amp;portrait=0" width="900" height="508" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
+ambient_synthesis		506		images/ambient_synthesis/goldengardens.jpg	
+ambient_synthesis		501		images/ambient_synthesis/emp.jpg	
+ambient_synthesis		503		images/ambient_synthesis/mojave3.jpg	
+ambient_synthesis		600		images/ambient_synthesis/norcal2.jpg	
+ambient_synthesis		506		images/ambient_synthesis/cad.jpg	
+mechanical_walking_machine	<iframe src="http://player.vimeo.com/video/23898767?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
+mechanical_walking_machine		466		images/walker/twolegs.gif	An illustration of the translation of rotational motion into stepping motion.
+mechanical_walking_machine		506		images/walker/hingeclose.jpg	
+mechanical_walking_machine		506		images/walker/heatgun.jpg	
+mechanical_walking_machine		506		images/walker/still1.jpg	
+mechanical_walking_machine		637		images/walker/hinges.jpg	
+mechanical_walking_machine		527		images/walker/press.jpg	
+mechanical_walking_machine		506		images/walker/still4.jpg	
+mechanical_walking_machine		900		images/walker/full.jpg	
+mechanical_walking_machine		506		images/walker/still3.jpg	
+mechanical_walking_machine		506		images/walker/dimensions.jpg	Dimensions of one leg. 
+mechanical_walking_machine		936		images/walker/pair.png	The position of a pair of legs during 12 steps of one locomotive cycle.
 multitouch	<iframe src="http://player.vimeo.com/video/80744781?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
 multitouch		600		images/multitouch/partitions.jpg	
 multitouch	<iframe src="http://player.vimeo.com/video/20694014?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			This device relies on IR sensing and does not function optimally around sunlight, but I found out     by accident that it does some interesting things while the intensity of sunlight is changing rapidly (sunrise/sunset).     Here are some experiments transforming seemingly random noise from the inputs into sound/lights.  Filmed in Claremont, CA.     This MaxMSP patch is called <a href="http://docs.monome.org/doku.php?id=app:straw" target="_blank">straw</a>, it was written by     <a href="http://soundcloud.com/stretta" target="_blank">Stretta</a>.  Best with headphones, more info <a href="../ambient_synthesis">here</a>.
 multitouch	<iframe src="http://player.vimeo.com/video/20955724?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
 multitouch	<iframe src="http://player.vimeo.com/video/24364796?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	506			
-DMDesign	<iframe src="https://player.vimeo.com/video/139151095?title=0&byline=0&portrait=0" width="900" height="525" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>	525			
-DMDesign	<iframe src="https://player.vimeo.com/video/139404716?title=0&byline=0&portrait=0" width="900" height="525" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>	525			
-DMDesign	<iframe src="https://player.vimeo.com/video/139166300?title=0&byline=0&portrait=0" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>	506			
+amoeba	<iframe src="https://player.vimeo.com/video/139151095?title=0&byline=0&portrait=0" width="900" height="525" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>	525			
+amoeba	<iframe src="https://player.vimeo.com/video/139404716?title=0&byline=0&portrait=0" width="900" height="525" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>	525			
+amoeba	<iframe src="https://player.vimeo.com/video/139166300?title=0&byline=0&portrait=0" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>	506			

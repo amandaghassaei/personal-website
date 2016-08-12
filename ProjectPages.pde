@@ -14,6 +14,7 @@ void makeProjectPages()
     String[] pageHTML = new String[genericHead.length];
     arrayCopy(genericHead, pageHTML);
     String projectName = project.getString("Project Name");
+    String url = project.getString("URL");
     pageHTML = replaceWord(pageHTML, "{{pageTitle}}", projectName.toUpperCase());
     pageHTML = replaceWord(pageHTML, "{{path}}", "/");
     
@@ -26,7 +27,7 @@ void makeProjectPages()
     String[] projectList = new String[0];
     boolean firstImage = true;
     for (TableRow image : imagesTable.rows()) {
-      if (image.getString("Project Name").equals(projectName)) {
+      if (image.getString("Project Name").equals(url)) {
         //add image in list
         String[] thisImage = new String[projectImage.length];
         if (!image.getString("iframe").equals("")) {
@@ -109,8 +110,6 @@ void makeProjectPages()
     pageHTML = insertArray(pageHTML, "{{projectAssets}}", projectList);
     pageHTML = insertArray(pageHTML, "{{license}}", license);
     pageHTML = replaceWord(pageHTML, "{{path}}", "/");
-
-    String url = project.getString("URL");
       
 //    createOutput("mysite/projects/" + url);
     saveStrings("mysite/projects/" + url + "/index.html", pageHTML);
